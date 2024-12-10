@@ -1,0 +1,27 @@
+PODS:
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - YCDateFilter (0.1.0)
+
+DEPENDENCIES:
+  - Masonry (~> 1.1.0)
+  - MBProgressHUD (~> 1.2.0)
+  - YCDateFilter (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  YCDateFilter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  YCDateFilter: 8d96f1f5d771bc9bc18409b978afb4a21a82f8df
+
+PODFILE CHECKSUM: 93414bff41e5e569ec843ec973a999cba07cf6c0
+
+COCOAPODS: 1.15.2

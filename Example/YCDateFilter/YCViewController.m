@@ -7,8 +7,14 @@
 //
 
 #import "YCViewController.h"
+#import "YCDateFilterViewController.h"
+#import "YCCommon.h"
 
 @interface YCViewController ()
+
+@property (nonatomic, strong) YCDateFilterViewController *filterVc;
+
+@property (weak, nonatomic) IBOutlet UIButton *myButton;
 
 @end
 
@@ -18,12 +24,28 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)buttonClick:(id)sender {
+    
+    self.filterVc.modalPresentationStyle = UIModalPresentationOverFullScreen;
+    __weak UIButton *myButton = sender;
+    self.filterVc.dateRangeBlock = ^(NSString *startTime, NSString *endTime, NSString *showString) {
+        NSLog(@"%@ %@ %@",startTime,endTime,showString);
+        [myButton setTitle:showString forState:UIControlStateNormal];
+    };
+    [self presentViewController:self.filterVc animated:YES completion:nil];
+    
+}
+
+
+- (YCDateFilterViewController *)filterVc {
+    if (!_filterVc) {
+        _filterVc = [YCDateFilterViewController new];
+    }
+    return _filterVc;
 }
 
 @end

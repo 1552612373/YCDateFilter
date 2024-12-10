@@ -4,10 +4,13 @@ platform :ios, '10.0'
 
 target 'YCDateFilter_Example' do
   pod 'YCDateFilter', :path => '../'
-
+  pod 'Masonry', '~> 1.1.0'
+  pod 'MBProgressHUD', '~> 1.2.0'
+  
   target 'YCDateFilter_Tests' do
     inherit! :search_paths
-
+    
+    
     
   end
 end
