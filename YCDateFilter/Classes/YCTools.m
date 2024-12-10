@@ -31,4 +31,14 @@
     return nowString;
 }
 
+// 获取图片
++ (UIImage *)getImageWithName:(NSString *)name suffix:(NSString *)suffix {
+    NSString *imageName = name;
+    NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
+    NSString *currentBundleName = currentBundle.infoDictionary[@"CFBundleName"];
+    NSString *imagePath = [currentBundle pathForResource:imageName ofType:suffix inDirectory:[NSString stringWithFormat:@"%@.bundle",currentBundleName]];
+    UIImage *imageFile = [UIImage imageWithContentsOfFile:imagePath];
+    return imageFile;
+}
+
 @end

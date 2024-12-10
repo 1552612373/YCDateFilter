@@ -9,6 +9,7 @@
 #import "YCDateFilterView.h"
 #import <Masonry/Masonry.h>
 #import "YCCommon.h"
+#import "YCTools.h"
 
 @interface YCDateFilterView ()
 
@@ -126,7 +127,7 @@
 - (UIButton *)closeButton {
     if (!_closeButton) {
         _closeButton = [UIButton buttonWithType:UIButtonTypeCustom];
-        [_closeButton setImage:[UIImage imageNamed:@"close"] forState:UIControlStateNormal];
+        [_closeButton setImage:[YCTools getImageWithName:@"close" suffix:@"png"] forState:UIControlStateNormal];
     }
     return _closeButton;
 }
