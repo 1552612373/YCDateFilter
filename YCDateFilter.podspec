@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YCDateFilter'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = '年月选择以及日期范围选择'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'YCDateFilter/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'YCDateFilter' => ['YCDateFilter/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'YCDateFilter' => ['YCDateFilter/Assets/*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
