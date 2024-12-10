@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YCDateFilter'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = '年月选择以及日期范围选择'
 
 # This description is used to generate tags and improve search results.
