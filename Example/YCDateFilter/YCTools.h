@@ -18,6 +18,9 @@ NS_ASSUME_NONNULL_BEGIN
 // 根据format和date，返回字符串
 + (NSString *)getTimestampWithFormat:(NSString *)format date:(NSDate *)date;
 
+// 获取图片
++ (UIImage *)getImageWithName:(NSString *)name suffix:(NSString *)suffix;
+
 @end
 
 NS_ASSUME_NONNULL_END
