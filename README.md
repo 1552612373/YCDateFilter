@@ -1,13 +1,13 @@
 # YCDateFilter
 
-[![CI Status](https://img.shields.io/travis/杨超/YCDateFilter.svg?style=flat)](https://travis-ci.org/杨超/YCDateFilter)
+
 [![Version](https://img.shields.io/cocoapods/v/YCDateFilter.svg?style=flat)](https://cocoapods.org/pods/YCDateFilter)
 [![License](https://img.shields.io/cocoapods/l/YCDateFilter.svg?style=flat)](https://cocoapods.org/pods/YCDateFilter)
 [![Platform](https://img.shields.io/cocoapods/p/YCDateFilter.svg?style=flat)](https://cocoapods.org/pods/YCDateFilter)
 
 
 - 中文
-- [English](readme/README_EN.md)
+- [English](README/README_EN.md)
 
 
 ## 描述
