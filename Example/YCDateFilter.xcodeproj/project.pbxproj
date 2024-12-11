@@ -13,6 +13,7 @@
 		5832A1E22D07E9B9001AEAA0 /* YCDateFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5832A1D82D07E5F3001AEAA0 /* YCDateFilterView.m */; };
 		5832A1E52D07EDFE001AEAA0 /* YCTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5832A1E42D07ED34001AEAA0 /* YCTools.m */; };
 		5832A1E82D07EE8F001AEAA0 /* YCUnderlineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5832A1E72D07EE85001AEAA0 /* YCUnderlineButton.m */; };
+		58F695052D09624B006C81B1 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 58F695042D09624B006C81B1 /* demo.gif */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -59,6 +60,7 @@
 		5832A1E42D07ED34001AEAA0 /* YCTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCTools.m; sourceTree = "<group>"; };
 		5832A1E62D07EE85001AEAA0 /* YCUnderlineButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCUnderlineButton.h; sourceTree = "<group>"; };
 		5832A1E72D07EE85001AEAA0 /* YCUnderlineButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCUnderlineButton.m; sourceTree = "<group>"; };
+		58F695042D09624B006C81B1 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YCDateFilter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCDateFilter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -178,6 +180,7 @@
 				6003F5A5195388D20070C39A /* YCViewController.h */,
 				6003F5A6195388D20070C39A /* YCViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				58F695042D09624B006C81B1 /* demo.gif */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -322,6 +325,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				58F695052D09624B006C81B1 /* demo.gif in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);

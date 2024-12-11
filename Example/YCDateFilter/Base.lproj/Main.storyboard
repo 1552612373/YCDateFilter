@@ -19,9 +19,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KuB-1W-ndE">
-                                <rect key="frame" x="79" y="252" width="217" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KuB-1W-ndE">
+                                <rect key="frame" x="87.5" y="298.5" width="200" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="W1e-8v-qyN"/>
+                                    <constraint firstAttribute="width" constant="200" id="t8t-r4-RdF"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
@@ -30,6 +33,10 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KuB-1W-ndE" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="elI-la-G8G"/>
+                            <constraint firstItem="KuB-1W-ndE" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="sIh-KE-z4h"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="myButton" destination="KuB-1W-ndE" id="2qp-GI-ogF"/>

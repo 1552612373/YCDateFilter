@@ -6,28 +6,28 @@
 [![Platform](https://img.shields.io/cocoapods/p/YCDateFilter.svg?style=flat)](https://cocoapods.org/pods/YCDateFilter)
 
 
-- 中文
-- [English](readme/README_EN.md)
+- [中文](../README.md)
+- English
 
 
-## 描述
-本组件用于选择月份或日期范围
+## description
+This component is used to select a month or date range
 
-## 支持
+## Support
 iPhone / iPad
 
 
-## 安装
+## Installation
 
-YCDateFilter支持[CocoaPods](https://cocoapods.org). 
+YCDateFilter is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
-要安装它，只需将以下行添加到您的Podfile中：
 
 ```ruby
 pod 'YCDateFilter'
 ```
 
-## 使用
+## Usage
 
 ```
 @interface YCViewController ()
@@ -47,12 +47,12 @@ self.filterVc.dateRangeBlock = ^(NSString *startTime, NSString *endTime, NSStrin
     
 ```
 
-<img src="Example/YCDateFilter/demo.gif" width="300" height="639" alt="示例gif">
+<img src="../Example/YCDateFilter/demo.gif" width="300" height="639" alt="示例gif">
 
-## 作者
+## Author
 
 杨超, 1552612373@qq.com
 
-## 许可证
+## License
 
 YCDateFilter is available under the MIT license. See the LICENSE file for more info.

@@ -37,7 +37,12 @@
     NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
     NSString *currentBundleName = currentBundle.infoDictionary[@"CFBundleName"];
     NSString *imagePath = [currentBundle pathForResource:imageName ofType:suffix inDirectory:[NSString stringWithFormat:@"%@.bundle",currentBundleName]];
-    UIImage *imageFile = [UIImage imageWithContentsOfFile:imagePath];
+    UIImage *imageFile;
+    if (!imagePath) {
+        imageFile = [UIImage imageNamed:name];
+    } else {
+        imageFile = [UIImage imageWithContentsOfFile:imagePath];
+    }
     return imageFile;
 }
 
